@@ -1,0 +1,287 @@
+
+
+@charset "utf-8";
+
+/*On ajoute les deux custom fonts : */
+@font-face { font-family: Melbourne;
+	src: url('fonts/Melbourne_regular_basic.otf');
+}
+@font-face { font-family: Ginko;
+	src: url('fonts/GINKO.TTF');
+}
+
+/* CSS Document */
+
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+
+
+input, textarea {
+	padding: 8px;
+	border: solid 1px #E5E5E5;
+	font: normal 13px Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+ width: 400px;
+ max-width: 400px;
+ height: 150px;
+ line-height: 150%;
+ }
+
+.form label {
+ margin-left: 10px;
+ color: #999999;
+ }
+
+input:hover,textarea:hover {
+ box-shadow: 0 0 1px #000;
+}
+#reference{
+    font-size:55px;
+    font-family:Melbourne;
+    position: relative;
+    text-align: center;
+    padding-left: 40%;
+}
+section #video{
+    
+   padding-bottom: 50%;
+}
+#form-div {
+background-color:#F5F5F5;
+padding:15px;
+}
+
+#show_our_contact_form {
+margin:30px auto;
+width:450px;
+display: none;
+
+}
+
+
+#fancybox-wrap {
+  margin: -70px 0 0 290px;
+}
+.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+}
+div#flash
+{
+    
+    padding-top: 1px;
+    padding-left: 24%;
+}
+
+#menu_top {
+  background:transparent;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#906b9e2e,endColorstr=#906b9e2e);
+  zoom: 1; }
+
+ div.addthis_toolbox
+ {
+     float: right;
+     padding-right: 10px;
+     padding-bottom: 10px;
+ }
+  span#partage
+ {
+     float: right;
+     
+     padding-right: 75px;
+     font-weight: bold;
+ }
+ 
+
+body { background:  url(../images/bg_body.jpg) repeat; position: relative;
+height: 90%;
+    width:100%;
+    margin:0; padding:0;
+
+}
+ 
+#header_top {position: relative; height:176px; padding-top:29px;}
+ 
+.container { 
+    
+    
+    border-top:  1px solid #bbbcbc;
+    border-bottom:    1px solid #bbbcbc;
+      border-right:  1px solid #bbbcbc;
+       border-left : 1px solid #bbbcbc;
+	width: 800px;
+        height: 100%;
+	margin: 0 auto ; /* la valeur automatique sur les côtés, associée à la largeur, permet de centrer la mise en page */
+}
+
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+
+#menu_top { 
+	height:26px;
+        width: 100%;
+	background-color:rgb(96,74,157); /*alternative pour les vieux navigateurs (sans transparence ici)*/
+	background-color:rgba(96,74,157,0.6); } /*le fond uni avec transparence comme on aime*/
+
+#menu_top ul {
+	width:800px;
+	
+}
+
+#menu_top ul li {float:left;}
+
+#menu_top ul a, #menu_top ul a:visited {
+    
+	padding: 2px 17px 0px;
+	display: block;
+	font-family: HelveticaNeueLTStdRegular;
+	font-size:18px;
+	color:#fff;
+	text-shadow:0 1px 2px #555;
+	text-decoration: none;
+}
+#menu_top ul a.actif, #menu_top ul a:hover, #menu_top ul a:active, #menu_top ul a:focus {
+	background:url(images/menu_hover.png) center top no-repeat;
+}*/
+
+
+
+ 
+ul, ol, dl, h1, h2, h3, h4, h5 {
+padding: 0;
+margin: 0;
+font-weight:normal;
+}
+ 
+ul, ol {list-style-type:none;}
+/* footer {
+ 
+bottom: 0;
+ }
+/*#footer_site {
+
+bottom :1px;
+padding-top:  40px ;*/
+height:15px;
+
+
+/*}
+#under_const{
+      background:url(../images/undercon.jpg) no-repeat bottom left;
+   
+}*/
+}
+#footer_site {
+display:none;
+   position: fixed;
+    bottom: 0 ;
+}
+/*
+#footer_site aside {float:left; padding-left:56px;}
+#footer_site aside p+p {margin:-1px 0 0 7px;}
+#footer_site p { margin: 3px 0; float:left; color:#45444; font-size:13px;}
+#footer_site span#copyright {  padding-right: 450px; color:#6e6e6e; font-size:12px; text-align: center;}*/
+
+ span#analytics{ float:left;  font-size:12px;}
+/*div#menu_footer
+{
+    
+    padding-left: 300px;
+    padding-bottom: 100px;
+}*/
+
+div#contour-google{
+    
+     border-bottom:   2px solid #bbbcbc;
+      border-left:   2px solid #bbbcbc;
+       border-right:  2px solid #bbbcbc;
+        border-top:   2px solid #bbbcbc;
+}
+#aside-left{ 
+  
+      padding-left:5px;
+      float: left;
+	margin-top:30px; 
+}
+h2 {font-size:28px;
+	font-family:Melbourne; /*j'utilise ma custom font Melbourne*/
+	padding-bottom:6px;
+	background:url(../images/bg_titre.jpg) no-repeat bottom left;}
+	#home_bas p.lire_suite a{ 
+	font-size:13px;
+	font-style:italic;
+	color:#830f00;
+	text-decoration:none;}
+#home_bas p.lire_suite a:hover{ text-decoration:underline;}
+#home_bas {
+    border-bottom:   1px solid #bbbcbc;
+            border-top: 1px solid #bbbcbc;
+
+}
+
+#home_bas h1{ 
+          padding-top: 20px;
+	font-size:28px;
+	font-family:Melbourne; 
+	padding-bottom:6px;
+}
+
+#aside {
+margin-left:10px;
+margin-top:108px;
+border:   1px solid #bbbcbc;
+color:#830f00;
+width: 250px;
+height: 100%;
+float: left;
+}
+th {
+    text-align: left;
+	font-size:30px;
+	margin : 50px;
+}
+td {
+font-size:20px;
+}
+
+#aname,#date,#adress,#phone,#aemail,#site {
+margin :5px;
+color:black;
+font-size:20px;
+display: block;
+font-family: HelveticaNeueLTStdRegular;
+
+text-shadow:0 1px 2px #555;
+}
+#info{
+float :right;
+color:black;
+font-size:20px;
+horizontal-align: middle;
+font-family: HelveticaNeueLTStdRegular;
+padding-top:40px;
+padding-right:100px;
+text-shadow:0 1px 2px #555;
+text-align: left;
+display: inline-block;
+
+
+}
+#img_proj{
+padding:20px;
+width:400px;
+}
+
+#title,#dte,#outils,#descr {
+
+}
